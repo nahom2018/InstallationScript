@@ -1,3 +1,3 @@
-apt update
-apt install docker.io -y
-usermod -aG sudo docker
+sudo apt update
+sudo apt install docker.io -y
+sudo usermod -aG sudo docker
